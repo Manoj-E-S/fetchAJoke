@@ -1,0 +1,139 @@
+
+/*************************** General Styles **************************/
+body {
+    background-image: url("../images/bg2.jpg");
+    opacity: 0.93;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #26273C;
+    text-align: center;
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 1rem;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 2rem 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Acme", sans-serif;
+    font-size: 5rem;
+    line-height: 1.2;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 2.8rem;
+    line-height: 1.2;
+    margin-top: 2rem;
+}
+
+h3 {
+    font-family: "Acme", sans-serif;
+    font-weight: 900;
+    font-size: 6rem;
+    line-height: 1.2;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #808080;
+}
+
+label, select, input {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    background-color: #101010;
+    color: #ffffff;
+    margin: 2rem 0;
+    padding: 1.5rem 0;
+}
+
+/*********************************************************************/
+
+/************************* Class-wise Styles *************************/
+
+.main-container {
+    background-color: #101010;
+    color: #ffffff;
+    margin: 5rem 10%;
+    padding: 0;
+}
+
+.custom-row {
+    margin: 3rem 15%;
+    padding: 0;
+}
+
+.custom-col {
+    margin: 1rem 0;
+    padding: 0;
+    text-align: left;
+    justify-content: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.seagreen-width-100 {
+    width: 100%;
+    background-color: #93F6E4;
+}
+
+.bg-yellow {
+    background-color: #FDFD96;
+}
+
+/*********************************************************************/
+
+/************************* index.ejs Styles **************************/
+
+.joke-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#joke h2 {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*********************************************************************/
